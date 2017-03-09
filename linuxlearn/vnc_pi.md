@@ -4,12 +4,16 @@
 ```sudo apt-get install tightvncerver```
 
 安装好之后设置`VNC`密码：  
-```vncpasswd```  
+```
+vncpasswd
+```  
 
 确认两次密码。
 
 设置开机启动：
-``` sudo vi /etc/init.d/tightvncserver```
+``` 
+sudo vi /etc/init.d/tightvncserver
+```
 
 `tightvncserver`内容：
 
