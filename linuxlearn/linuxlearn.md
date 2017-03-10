@@ -7,3 +7,7 @@
 	apt-get dist-upgrade
 
 产生的原因是，`apt-get update` 和 `apt-get upgrade` 不能升级正在运行的或未安装的软件包。
+
+## ssh 自动登录
+
+在`/home/usernamer/.ssh`下的，`authorized_keys`中复制公钥。没有该目录或文件，则新建一个。
